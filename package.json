@@ -13,6 +13,7 @@
   "dependencies": {
     "@docusaurus/core": "2.4.0",
     "@docusaurus/preset-classic": "2.4.0",
+    "docusaurus": "^1.14.7",
     "pdoc": "0.0.3",
     "sharp": "^0.29.1"
   }
