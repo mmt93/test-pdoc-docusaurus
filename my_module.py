@@ -23,7 +23,7 @@ class MyClass:
 
     def __init__(self, name):
         """
-        Initializes an instance of MyClass.
+        Initializes an instance of MyClass. Test
 
         Args:
             name (str): The name of the instance.
