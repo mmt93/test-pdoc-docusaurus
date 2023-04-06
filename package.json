@@ -1,11 +1,19 @@
 {
-  "name": "my-project",
-  "version": "1.0.0",
-  "description": "My project description",
+  "name": "test-pdoc-docusaurus",
+  "version": "0.0.1",
+  "description": "Test project for using pdoc and Docusaurus",
+  "main": "index.js",
   "scripts": {
-    "build": "my-build-command"
+    "build": "docusaurus build",
+    "start": "docusaurus start",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "my-dependency": "^1.0.0"
+    "@docusaurus/core": "^3.0.0-beta.4",
+    "@docusaurus/preset-classic": "^3.0.0-beta.4",
+    "pdoc": "^7.2.2",
+    "sharp": "^0.29.1"
   }
 }
