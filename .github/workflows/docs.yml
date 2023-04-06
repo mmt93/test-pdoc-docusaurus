@@ -18,11 +18,11 @@ jobs:
     - name: Build documentation
       run: |
         pdoc --html my_module.py
-        npm run build --prefix my-website/
+        npm run build --prefix website/
     - name: Commit changes
       run: |
         git config --global user.name "mmt93"
         git config --global user.email "41652032+mmt93@users.noreply.github.com"
-        git add my-website/
+        git add website/
         git commit -m "Update documentation"
         git push
